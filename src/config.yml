@@ -1,0 +1,173 @@
+#AwesomeChatColor by Royendero
+#
+#GuiName, change the Name of the GUI
+GuiName: "&5Select a color"
+#Type of blocks in GUI
+#1=WOOL. 2=STAINED_GLASS. 3=STAINED_GLASS_PANE. 4=STAINED_CLAY 5=CARPET 6=LEATHERS
+type: 1
+prefix: '&a&ki&2&lAWCC&a&ki&r &2&l> '
+#Message to change color.
+successfull: '&aColor changed!'
+#Message to change format.
+formatchanged: '&aFormat Changed'
+#Message when rainbow is enabled and activate a format.
+errorrainbow: '&cError, rainbow enabled.'
+#Message to clear all
+cleared: '&aCleared!'
+#Message when a player is offline.
+offline: '&cPlayer is not online.'
+colorerror: '&cPlease, instert a valid color.'
+usage: '&cPlease use /awcc help.'
+help: '&cHelp Commands'
+#Message when use /awcc list
+listmessage: '&cColor list:'
+reload: '&cAWCC Reloaded.'
+firstselect: '&cFirst, select a color.'
+needcolor: '&cThis player first need a color.'
+noneclear: '&cYou not have colors or/and effects.'
+permission: '&cYou don´t have permission'
+sounds: true
+#Change text of blocks.
+wool:
+# This is the block
+  dred:
+#   Title of the block
+    title: '&4Dark Red'
+#   Lore of the block
+    lore:
+    - '&7Cool color!'
+    - '&aClick to change this color.'
+#   You can add more lines.
+#    - 'This is other line'
+#    - 'This is other :D'
+    slot: 0
+  black:
+    title: '&6Black'
+    lore:
+    - '&7Black is Black!'
+    - '&aClick to change this color.'
+    slot: 2
+  dark_blue:
+    title: '&1Dark Blue'
+    lore:
+    - '&7Funny text!'
+    - '&aClick to change this color.'
+    slot: 4
+  blue:
+    title: '&9Blue'
+    lore:
+    - '&7Rain! :D'
+    - '&aClick to change this color.'
+    slot: 6
+  cyan:
+    title: '&bCyan'
+    lore:
+    - '&7Cyan is Cyan'
+    - '&aClick to change this color.'
+    slot: 8
+  gray:
+    title: '&7Gray'
+    lore:
+    - '&7Gray is Gray'
+    - '&aClick to change this color.'
+    slot: 10
+  green:
+    title: '&2Green'
+    lore:
+    - '&7Green is the tree!'
+    - '&aClick to change this color.'
+    slot: 12
+  lime:
+    title: '&aLime'
+    lore:
+    - '&7Lime, lime lime.'
+    - '&aClick to change this color.'
+    slot: 14
+  magenta:
+    title: '&5Magenta'
+    lore:
+    - '&7Magenta is Magenta'
+    - '&aClick to change this color.'
+    slot: 16
+  orange:
+    title: '&6Orange'
+    lore:
+    - '&7Creative line! :D'
+    - '&aClick to change this color.'
+    slot: 18
+  pink:
+    title: '&dPink'
+    lore:
+    - '&7Pink PINK PINK!!!!!'
+    - '&aClick to change this color.'
+    slot: 20
+  red:
+    title: '&cRed'
+    lore:
+    - '&7Red is red'
+    - '&aClick to change this color.'
+    slot: 22
+  silver:
+    title: '&8Silver'
+    lore:
+    - '&7Silver is Silver'
+    - '&aClick to change this color.'
+    slot: 24
+  white:
+    title: '&fWhite'
+    lore:
+    - '&7White is WHITE!'
+    - '&aClick to change this color.'
+    slot: 26
+  yellow:
+    title: '&eYellow'
+    lore:
+    - '&7Yellow, Amarillo in spanish.'
+    - '&aClick to change this color.'
+    slot: 31
+  rainbow:
+    title: '&eR&ba&ci&bn&6B&9o&fw'
+    lore:
+    - '&7AWESOME!'
+    - 'This color is not compatible with formats.'
+    - '&aClick to change this color.'
+    slot: 13
+#Formats
+format:
+  bold:
+    title: '&7&lBOLD'
+    lore:
+    - '&aHello&7/&a&lHello'
+    - '&aClick to add type.'
+    slot: 37
+  strike:
+    title: '&7&mSTRIKE'
+    lore:
+    - '&aHello&7/&a&mHello'
+    - '&aClick to add type.'
+    slot: 39
+  unline:
+    title: '&7&nUNDERLINE'
+    lore:
+    - '&aHello&7/&a&nHello'
+    - '&aClick to add type.'
+    slot: 41
+  italic:
+    title: '&7&oITALIC'
+    lore:
+    - '&aHello&7/&a&oHello'
+    - '&aClick to add type.'
+    slot: 43
+  cleartnt:
+    title: '&cClear all'
+    lore:
+    - '&7Clear colors and formats.'
+    - '&aClick to clear effects.'
+    slot: 49
+mysql:
+  use: false
+  ip/host: 'localhost'
+  port: '3306'
+  database: 'database'
+  username: 'username'
+  password: 'password'

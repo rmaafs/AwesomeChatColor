@@ -1,0 +1,226 @@
+name: AwesomeChatColor
+version: 3.0
+main: me.Roy.AwesomeChatColor.Main
+author: Royendero
+description: Color of chat
+commands:
+  awcc:
+    description: Open Gui
+  awcc reload:
+    description: Reload config
+  awcc help:
+    description: See all commands
+permissions:
+    awcc.*:
+        description: Gives access to all commands
+        children:
+            awcc.color.*: true
+            awcc.format.*: true
+            awcc.set.*: true
+            awcc.gui: true
+            awcc.list: true
+            awcc.clear: true
+            awcc.reload: true
+            awcc.help: true
+    awcc.color.*:
+        description: Gives access to all colors
+        children:
+            awcc.gui: true
+            awcc.clear: true
+            awcc.color.dred: true
+            awcc.color.black: true
+            awcc.color.dblue: true
+            awcc.color.blue: true
+            awcc.color.cyan: true
+            awcc.color.gray: true
+            awcc.color.green: true
+            awcc.color.lime: true
+            awcc.color.magenta: true
+            awcc.color.orange: true
+            awcc.color.pink: true
+            awcc.color.red: true
+            awcc.color.silver: true
+            awcc.color.white: true
+            awcc.color.yellow: true
+            awcc.color.rainbow: true
+    awcc.format.*:
+        description: Gives access to all formats
+        children:
+            awcc.gui: true
+            awcc.clear: true
+            awcc.format.bold: true
+            awcc.format.strike: true
+            awcc.format.unline: true
+            awcc.format.italic: true
+    awcc.set.*:
+        description: Gives access to set all.
+        children:
+            awcc.set.dred: true
+            awcc.set.black: true
+            awcc.set.dblue: true
+            awcc.set.blue: true
+            awcc.set.cyan: true
+            awcc.set.gray: true
+            awcc.set.green: true
+            awcc.set.lime: true
+            awcc.set.magenta: true
+            awcc.set.orange: true
+            awcc.set.pink: true
+            awcc.set.red: true
+            awcc.set.silver: true
+            awcc.set.white: true
+            awcc.set.yellow: true
+            awcc.set.rainbow: true
+            awcc.set.bold: true
+            awcc.set.strike: true
+            awcc.set.unline: true
+            awcc.set.italic: true
+            awcc.set.clear: true
+
+    awcc.color.dred:
+        description: Change the color
+        default: op
+    awcc.color.black:
+        description: Change the color
+        default: op
+    awcc.color.dblue:
+        description: Change the color
+        default: op
+    awcc.color.blue:
+        description: Change the color
+        default: op
+    awcc.color.cyan:
+        description: Change the color
+        default: op
+    awcc.color.gray:
+        description: Change the color
+        default: op
+    awcc.color.green:
+        description: Change the color
+        default: op
+    awcc.color.lime:
+        description: Change the color
+        default: op
+    awcc.color.magenta:
+        description: Change the color
+        default: op
+    awcc.color.orange:
+        description: Change the color
+        default: op
+    awcc.color.pink:
+        description: Change the color
+        default: op
+    awcc.color.red:
+        description: Change the color
+        default: op
+    awcc.color.silver:
+        description: Change the color
+        default: op
+    awcc.color.white:
+        description: Change the color
+        default: op
+    awcc.color.yellow:
+        description: Change the color
+        default: op
+    awcc.color.rainbow:
+        description: Change the color
+        default: op
+    awcc.color.clear:
+        description: Change the color
+        default: op
+
+    awcc.format.bold:
+        description: Change the color
+        default: op
+    awcc.format.strike:
+        description: Change the color
+        default: op
+    awcc.format.unline:
+        description: Change the color
+        default: op
+    awcc.format.italic:
+        description: Change the color
+        default: op
+        
+    awcc.set.dred:
+        description: Change the color of a player
+        default: op
+    awcc.set.black:
+        description: Change the color of a player
+        default: op
+    awcc.set.dblue:
+        description: Change the color of a player
+        default: op
+    awcc.set.blue:
+        description: Change the color of a player
+        default: op
+    awcc.set.cyan:
+        description: Change the color of a player
+        default: op
+    awcc.set.gray:
+        description: Change the color of a player
+        default: op
+    awcc.set.green:
+        description: Change the color of a player
+        default: op
+    awcc.set.lime:
+        description: Change the color of a player
+        default: op
+    awcc.set.magenta:
+        description: Change the color of a player
+        default: op
+    awcc.set.orange:
+        description: Change the color of a player
+        default: op
+    awcc.set.pink:
+        description: Change the color of a player
+        default: op
+    awcc.set.red:
+        description: Change the color of a player
+        default: op
+    awcc.set.silver:
+        description: Change the color of a player
+        default: op
+    awcc.set.white:
+        description: Change the color of a player
+        default: op
+    awcc.set.yellow:
+        description: Change the color of a player
+        default: op
+    awcc.set.rainbow:
+        description: Change the color of a player
+        default: op
+    awcc.set.bold:
+        description: Change the color of a player
+        default: op
+    awcc.set.strike:
+        description: Change the color of a player
+        default: op
+    awcc.set.unline:
+        description: Change the color of a player
+        default: op
+    awcc.set.italic:
+        description: Change the color of a player
+        default: op
+    awcc.set.clear:
+        description: Change the color of a player
+        default: op
+
+    awcc.gui:
+        description: Open the gui
+        default: op
+    awcc.list:
+        description: Open the gui
+        default: op
+    awcc.clear:
+        description: Open the gui
+        default: op
+    awcc.reload:
+        description: Open the gui
+        default: op
+    awcc.help:
+        description: Open the gui
+        default: true
+    awcc.set:
+        description: Open the gui
+        default: op
